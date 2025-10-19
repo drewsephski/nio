@@ -6,13 +6,13 @@ import { cn } from "@/lib/utils";
 
 const topItems = [
   {
-    title: "Reusable issue templates.",
+    title: "Context templates.",
     description:
-      "Draft lightning-fast documents with our Smart Instructions and Templates.",
+      "Create intelligent context templates with our smart context builder.",
     images: [
       {
         src: "/resource-allocation/templates.webp",
-        alt: "Issue template interface",
+        alt: "Context template interface",
         width: 495,
         height: 186,
       },
@@ -22,8 +22,8 @@ const topItems = [
     fade: [""],
   },
   {
-    title: "Simplify your stack.",
-    description: "No more Confluence, SharePoint, or Microsoft Word.",
+    title: "Integrate workflows.",
+    description: "No more fragmented context, Discord, or manual memory management.",
     images: [
       { src: "/logos/jira.svg", alt: "Jira logo", width: 48, height: 48 },
       { src: "/logos/excel.svg", alt: "Excel logo", width: 48, height: 48 },
@@ -62,13 +62,13 @@ const topItems = [
 
 const bottomItems = [
   {
-    title: "Graveyard it.",
+    title: "Archive context.",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do.",
+      "Store and retrieve historical context data for long-term agent learning.",
     images: [
       {
         src: "/resource-allocation/graveyard.webp",
-        alt: "Graveyard interface",
+        alt: "Context archive interface",
         width: 305,
         height: 280,
       },
@@ -78,13 +78,13 @@ const bottomItems = [
     fade: ["bottom"],
   },
   {
-    title: "Task discussions.",
+    title: "Context discussions.",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.",
+      "Collaborate on context evolution and share insights across your team.",
     images: [
       {
         src: "/resource-allocation/discussions.webp",
-        alt: "Task discussions interface",
+        alt: "Context discussions interface",
         width: 320,
         height: 103,
       },
@@ -94,13 +94,13 @@ const bottomItems = [
     fade: [""],
   },
   {
-    title: "Notifications.",
+    title: "Context updates.",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.",
+      "Get real-time notifications when context changes or new patterns emerge.",
     images: [
       {
         src: "/resource-allocation/notifications.webp",
-        alt: "Notifications interface",
+        alt: "Context updates interface",
         width: 305,
         height: 280,
       },
@@ -119,7 +119,7 @@ export const ResourceAllocation = () => {
     >
       <div className="">
         <h2 className="container text-center text-3xl tracking-tight text-balance sm:text-4xl md:text-5xl lg:text-6xl">
-          Mainline your resource allocation and execution
+          Nio OS context management and agent workflows
         </h2>
 
         <div className="mt-8 md:mt-12 lg:mt-20">

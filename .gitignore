@@ -1,42 +1,214 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
+# Dependencies
 /node_modules
 /.pnp
-.pnp.*
-.yarn/*
+/.pnp.*
+/.yarn/*
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+/.npm
+/.yarn/cache
+/.yarn/install-state.gz
 
-# testing
+# Testing
 /coverage
+.nyc_output
+*.lcov
 
-# next.js
+# Next.js
 /.next/
 /out/
-
-# production
 /build
+/.vercel
+.netlify
 
-# misc
-.DS_Store
-*.pem
+# Production builds
+/dist
+/.nuxt
 
-# debug
+# Environment variables
+.env*
+!.env.example
+!.env.test
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+postgres_data/
+mongodb_data/
+
+# Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
 
-# vercel
-.vercel
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
 
-# typescript
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+Thumbs.db
+
+# TypeScript
 *.tsbuildinfo
 next-env.d.ts
+
+# Prisma
+# Keep the schema file but ignore generated client
+/prisma/migrations/*/migration.sql
+
+# tRPC generated files
+.trpc
+
+# Inngest (job processing)
+.ingest
+
+# Docker
+.dockerignore
+
+# Sentry
+.sentryclirc
+
+# Storybook
+storybook-static
+
+# PM2
+.pm2
+
+# Local development
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel
+.vercel
+
+# Netlify
+.netlify/
+
+# Turbo
+.turbo
+
+# Supabase
+.supabase/
+
+# Railway
+.railway
+
+# Render
+.render
+
+# Fly.io
+.fly
+
+# Heroku
+.heroku
+
+# AWS
+.aws/
+
+# Google Cloud
+.gcloud/
+
+# Azure
+.azure/
+
+# Firebase
+.firebase/
+firebase-debug.log
+.firebaserc
+
+# Local storage
+.local
+
+# Electron
+app/dist/
+release/app/dist/
+node_modules/electron/dist/
+electron-builder-effective-config.yaml
+
+# Hardhat files
+artifacts/
+cache/
+
+# Qodo (AI coding assistant)
 .qodo

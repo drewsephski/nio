@@ -16,35 +16,34 @@ const plans = [
     yearlyPrice: "$0",
     description: "Free for everyone",
     features: [
-      "Unlimited members",
-      "2 teams",
-      "500 issues",
-      "Slack and Github integrations",
+      "Basic context storage",
+      "Single agent workflows",
+      "Community support",
+      "Standard integrations",
     ],
   },
   {
-    name: "Startup",
-    monthlyPrice: "$8",
-    yearlyPrice: "$6",
+    name: "Professional",
+    monthlyPrice: "$29",
+    yearlyPrice: "$24",
     features: [
       "All free plan features and...",
-      "Mainline AI",
-      "Unlimited teams",
-      "Unlimited issues and file uploads",
-      "Mainline Insights",
-      "Admin roles",
+      "Advanced context management",
+      "Multi-agent workflows",
+      "Priority support",
+      "Advanced integrations",
     ],
   },
   {
     name: "Enterprise",
-    monthlyPrice: "$8",
-    yearlyPrice: "$6",
+    monthlyPrice: "$99",
+    yearlyPrice: "$79",
     features: [
       "All free plan features and...",
-      "Mainline AI",
-      "Supermainline AGI",
-      "Free daily catered lunch",
-      "random HIPPA audits",
+      "Unlimited context storage",
+      "Enterprise agent orchestration",
+      "Dedicated support",
+      "Custom integrations",
     ],
   },
 ];
@@ -60,9 +59,9 @@ export const Pricing = ({ className }: { className?: string }) => {
             Pricing
           </h2>
           <p className="text-muted-foreground mx-auto max-w-xl leading-snug text-balance">
-            Use Mainline for free with your whole team. Upgrade to enable
-            unlimited issues, enhanced security controls, and additional
-            features.
+            Use NIO OS for free with basic context management. Upgrade to unlock
+            advanced context workflows, enterprise orchestration, and premium
+            support.
           </p>
         </div>
 
@@ -71,7 +70,7 @@ export const Pricing = ({ className }: { className?: string }) => {
             <Card
               key={plan.name}
               className={`${
-                plan.name === "Startup"
+                plan.name === "Professional"
                   ? "outline-primary origin-top outline-4"
                   : ""
               }`}
@@ -121,7 +120,7 @@ export const Pricing = ({ className }: { className?: string }) => {
 
                 <Button
                   className="w-fit"
-                  variant={plan.name === "Startup" ? "default" : "outline"}
+                  variant={plan.name === "Professional" ? "default" : "outline"}
                 >
                   Get started
                 </Button>

@@ -13,23 +13,27 @@ import { Button } from "@/components/ui/button";
 
 const features = [
   {
-    title: "Tailored workflows",
-    description: "Track progress across custom issue flows for your team.",
+    title: "Typed Context Cards",
+    description:
+      "Schema-first, auto-validated context that scales with your agents.",
     icon: CircleDot,
   },
   {
-    title: "Cross-team projects",
-    description: "Collaborate across teams and departments.",
+    title: "Cross-Model Profiles",
+    description:
+      "OpenRouter adapters with capability flags for consistent outputs.",
     icon: Blend,
   },
   {
-    title: "Milestones",
-    description: "Break projects down into concrete phases.",
+    title: "Dependency Graph & Lineage",
+    description:
+      "Explicit links, reversible diffs, and full context traceability.",
     icon: Diamond,
   },
   {
-    title: "Progress insights",
-    description: "Track scope, velocity, and progress over time.",
+    title: "Context Tests & Evals",
+    description:
+      "Fixtures, variance detection, and guardrails for reliable execution.",
     icon: ChartNoAxesColumn,
   },
 ];
@@ -40,13 +44,14 @@ export const Hero = () => {
       <div className="container flex flex-col justify-between gap-8 md:gap-14 lg:flex-row lg:gap-20">
         {/* Left side - Main content */}
         <div className="flex-1">
-          <h1 className="text-foreground max-w-160 text-3xl tracking-tight md:text-4xl lg:text-5xl xl:whitespace-nowrap">
-            Mainline Next.js template
+          <h1 className="text-foreground max-w-160 text-3xl tracking-tight md:text-4xl lg:text-5xl">
+            NIO OS — Real Context for AI Agents
           </h1>
 
           <p className="text-muted-foreground text-1xl mt-5 md:text-3xl">
-            Mainline is an open-source website template built with shadcn/ui,
-            Tailwind 4 & Next.js
+            Turn rough ideas, specs, and prompt fragments into modular,
+            versioned, executable context—ready to ship across agents, APIs, and
+            apps.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-4 lg:flex-nowrap">

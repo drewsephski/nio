@@ -10,52 +10,52 @@ import { cn } from "@/lib/utils";
 
 const categories = [
   {
-    title: "Support",
+    title: "Context Management",
     questions: [
       {
-        question: "How do I update my account without breaking my laptop?",
+        question: "How does NIO OS handle context persistence across agent sessions?",
         answer:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates deserunt officia temporibus dignissimos.",
+          "NIO OS maintains persistent memory for AI agents, allowing them to retain context, learn from interactions, and evolve their decision-making capabilities across multiple sessions.",
       },
       {
-        question: "Is support free, or do I need to Google everything?",
+        question: "Can I integrate NIO OS with my existing agent workflows?",
         answer:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates deserunt officia temporibus dignissimos.",
+          "Yes, NIO OS provides seamless integration APIs that allow you to connect your existing agent workflows with our advanced context management system for enhanced intelligence.",
       },
       {
-        question: "Are you going to be subsumed by AI?",
+        question: "How does context memory improve agent performance?",
         answer:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates deserunt officia temporibus dignissimos.",
+          "Context memory enables agents to learn from past interactions, adapt to user preferences, and make more informed decisions, resulting in more intelligent and reliable agent behavior.",
       },
     ],
   },
   {
-    title: "Your account",
+    title: "Agent Workflows",
     questions: [
       {
-        question: "Is support free, or do I need to Google everything?",
+        question: "What types of agents work best with NIO OS?",
         answer:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates deserunt officia temporibus dignissimos.",
+          "NIO OS works with any AI agent that benefits from persistent context, including chatbots, autonomous systems, recommendation engines, and complex workflow agents.",
       },
       {
-        question: "Are you going to be subsumed by AI?",
+        question: "How do I set up context management for my agents?",
         answer:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates deserunt officia temporibus dignissimos.",
+          "NIO OS provides simple setup workflows and comprehensive documentation to help you integrate context management into your existing agent architecture quickly and easily.",
       },
     ],
   },
   {
-    title: "Other questions",
+    title: "Support & Features",
     questions: [
       {
-        question: "Is support free, or do I need to Google everything?",
+        question: "What level of context storage do I need?",
         answer:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates deserunt officia temporibus dignissimos.",
+          "Context storage needs vary by use case. Our free tier provides basic storage for simple workflows, while professional and enterprise tiers offer advanced and unlimited context management.",
       },
       {
-        question: "Are you going to be subsumed by AI?",
+        question: "How secure is my context data with NIO OS?",
         answer:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates deserunt officia temporibus dignissimos.",
+          "NIO OS employs enterprise-grade security with encrypted storage, access controls, and compliance features to ensure your context data remains private and secure.",
       },
     ],
   },

@@ -26,15 +26,15 @@ const ITEMS = [
     href: "#features",
     dropdownItems: [
       {
-        title: "Modern product teams",
+        title: "Intelligent agent workflows",
         href: "/#feature-modern-teams",
         description:
-          "Mainline is built on the habits that make the best product teams successful",
+          "NIO OS provides seamless context management for intelligent agent workflows",
       },
       {
-        title: "Resource Allocation",
+        title: "Context Management",
         href: "/#resource-allocation",
-        description: "Mainline your resource allocation and execution",
+        description: "Advanced context storage and retrieval for AI agents",
       },
     ],
   },
@@ -126,7 +126,7 @@ export const Navbar = () => {
             </Button>
           </Link>
           <a
-            href="https://github.com/shadcnblocks/mainline-nextjs-template"
+            href="https://github.com/nioos/nio-os"
             className="text-muted-foreground hover:text-foreground transition-colors"
           >
             <Github className="size-4" />
